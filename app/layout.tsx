@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'ProPass',
   description: 'Created by RugvedK28. A Full Stack NextJs + MERN event management platform',
   icons: {
-    icon: '/assets/images/propass.png',
+    icon: '/assets/images/propasslogowithtext.svg',
   }
 }
 
