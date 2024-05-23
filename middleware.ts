@@ -1,6 +1,6 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { authMiddleware } from "@clerk/nextjs/server";
 
-export default clerkMiddleware({
+export default authMiddleware({
   publicRoutes: [
     '/',
     '/events/:id',
@@ -8,7 +8,7 @@ export default clerkMiddleware({
     '/api/webhook/stripe',
     '/api/uploadthing',
   ],
-  ignoredRoutes:[
+  ignoredRoutes: [
     '/api/webhook/clerk',
     '/api/webhook/stripe',
     '/api/uploadthing',
