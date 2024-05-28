@@ -1,6 +1,6 @@
 import { IEvent } from '@/lib/database/models/event.model'
 import React from 'react'
-import Card from './card'
+import Card from './Card'
 import Pagination from './Pagination'
 
 type CollectionProps = {
