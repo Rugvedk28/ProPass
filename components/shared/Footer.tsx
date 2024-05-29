@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="border-t">
       <div className="flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row">
         <Link href='/'>
-          <Image 
+          <img 
             src="/assets/images/propass.png"
             alt="logo"
             width={50}
