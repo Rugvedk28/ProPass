@@ -12,7 +12,8 @@ const Header = () => {
     <header>
         <div className="wrapper flex items-center justify-between">
             <Link href='/' className='w-36'>
-                <img src="/assets/images/propass.png" alt="logo" width={54} height={38}></img>
+                {/* <IMAGE src="/assets/images/propass.png" alt="logo" width={54} height={38}></IMAGE> */}
+                <h2 className=" text-pink-600 h2-bold inline">Pro<div className="text-blue-500 h2-bold inline">Pass</div></h2>
             </Link>
 
             <SignedIn>

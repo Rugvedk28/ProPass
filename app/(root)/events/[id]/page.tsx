@@ -18,13 +18,22 @@ const EventDetails = async ({ params: { id }, searchParams }: SearchParamProps) 
     <>
     <section className="flex justify-center bg-primary-50 bg-dotted-pattern bg-contain">
       <div className="grid grid-cols-1 md:grid-cols-2 2xl:max-w-7xl">
-        <Image 
+        {/* <Image 
           src={event.imageUrl}
           alt="hero image"
           width={1000}
           height={1000}
           className="h-full min-h-[300px] object-cover object-center"
-        />
+        /> */}
+            <Image 
+      src={event.imageUrl}
+      alt="hero image"
+      layout="responsive" // Add layout prop to make it responsive
+      width={1000} // Define the intrinsic width of the image
+      height={1000} // Define the intrinsic height of the image
+      className="h-full w-auto object-cover object-center" // Use w-full and h-auto for responsive sizing
+    />
+
 
         <div className="flex w-full flex-col gap-8 p-5 md:p-10">
           <div className="flex flex-col gap-6">
